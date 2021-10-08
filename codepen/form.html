@@ -1,0 +1,93 @@
+<html>
+<style>
+
+#div{
+  border:1px solid black;
+  padding:1%;
+  display:flex;
+  flex-direction:row-reverse;
+}
+#navbr{
+  margin-right:3%;
+}
+a{
+  margin:15px;
+  color:rgb(173,15,15)
+}
+h2{
+  text-align:center;
+  color:Red;
+}
+#container{
+  border:2px solid black;
+  width:50%;
+  margin:auto;
+  border-radius:5px;
+}
+input,button{
+  width:60%;
+  margin:5px auto;
+  border:2px solid black;
+  border-radius:4px;
+  padding:4px;
+  
+}
+button{
+  width:42%;
+  padding:1%;
+  background-color:orange;
+}
+#box{
+  padding:10px;
+  display:flex;
+  flex-direction:column;
+  background-color:teal;
+}
+input[type="submit"] {
+  background: Orange;
+}
+input[type="submit"]:hover {
+  background: #8DC26F;
+}
+label {
+  text-indent: -15px;
+  align:left;
+}
+b:hover {
+  color: Orange;
+}
+
+
+    </style>
+
+<div id="div">
+    <div id="navbr">
+    <span>
+      <a href="Home.html">Home</a></span> 
+      <a href="Home.html">Login</a></span> 
+      <a href="Home.html">Signup</a></span> 
+      </div>
+  </div>
+  <h2>
+    <u> SignUp form </u>
+  </h2>
+  <div id="container">
+    <div id="box">
+      <center>
+      <form action="#" method="post">
+  <input class="text" type="text" name="Username" placeholder="Username" required="">
+   <input class="text" type="text" name="Mobile No." placeholder="Mobile no" required="">
+      <input class="text email" type="email" name="email" placeholder="Email" required="">
+                      <input class="text" type="password" name="password" placeholder="Password" required="">
+                      <input class="text w3lpass" type="password" name="password" placeholder="Confirm Password" required="">
+                          <label >
+                              <input type="checkbox" class="checkbox" required="">
+                              <span>Remember me</span>
+                          </label>
+    <input type="submit" value="SIGNUP">
+        </center>
+    </form>
+      <p align="center"> Don't have an Account? <a href="#"> <b>Login Now!<b></a></p> 
+    </div>
+   </div>
+   </html>
